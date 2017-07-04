@@ -27,7 +27,7 @@ public class Question2a {
 	String year = (arr[7]);
 	String job_title = arr[4];
 	String worksite = arr[8];
-	if (job_title.equals("DATA ENGINEER")) {
+	if (job_title.contains("DATA ENGINEER")) {
 		context.write(new Text(year + '\t' + worksite), new Text(worksite));
 	}
 
