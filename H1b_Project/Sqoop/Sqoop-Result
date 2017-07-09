@@ -1,0 +1,377 @@
+In MySql:
+
+>>select * from Question10;
++------------------------------------------------------------+--------+--------------+
+| Job_Title                                                  | Count  | Success_rate |
++------------------------------------------------------------+--------+--------------+
+| POSTDOCTORAL FELLOW                                        |   7857 |      94.8581 |
+| COMPUTER PROGRAMMER / CONFIGURER 2                         |   1276 |          100 |
+| RESEARCH FELLOW                                            |   5981 |      96.3551 |
+| ASSOCIATE CONSULTANT - US                                  |   4393 |      99.9317 |
+| SENIOR HARDWARE ENGINEER                                   |   1653 |      94.8578 |
+| QA ENGINEER                                                |   2224 |      94.8291 |
+| ENGINEER II                                                |   1249 |      94.7158 |
+| SR. SOFTWARE ENGINEER                                      |   4863 |      94.7152 |
+| STAFF SCIENTIST                                            |   1242 |       94.686 |
+| SYSTEMS ENGINEER - US                                      |  10036 |      99.9004 |
+| BUSINESS INTELLIGENCE ANALYST                              |   1972 |      94.6755 |
+| PRINCIPAL ENGINEER                                         |   1066 |      94.6529 |
+| RF ENGINEER                                                |   2794 |      94.6314 |
+| SYSTEMS ADMINISTRATOR                                      |   6659 |      94.5938 |
+| SENIOR SOFTWARE ENGINEER                                   |  27133 |      94.5638 |
+| SENIOR JAVA DEVELOPER                                      |   1395 |       94.552 |
+| SOFTWARE TEST ENGINEER                                     |   3591 |      94.5419 |
+| VISITING ASSISTANT PROFESSOR                               |   1311 |       94.508 |
+| TECHNICAL CONSULTANT                                       |   3420 |      94.5029 |
+| SOFTWARE DEVELOPER                                         |  42907 |      94.4997 |
+| STAFF ENGINEER                                             |   1869 |       94.489 |
+| NETWORK ENGINEER                                           |   5422 |       94.467 |
+| PROJECT MANAGER                                            |  20172 |      94.4378 |
+| IT PROJECT MANAGER                                         |   2473 |      94.4197 |
+| APPLICATION ENGINEER                                       |   1458 |      94.3759 |
+| SOFTWARE ARCHITECT                                         |   1878 |      94.3557 |
+| PROGRAMMER                                                 |   6011 |      94.3271 |
+| VICE PRESIDENT                                             |   3159 |       94.302 |
+| CLINICAL ASSISTANT PROFESSOR                               |   1281 |      94.3013 |
+| ASSISTANT PROFESSOR                                        |  25265 |      94.3004 |
+| ASSOCIATE CONSULTANT                                       |   1350 |      94.2963 |
+| SENIOR SYSTEMS ENGINEER                                    |   2030 |      94.2857 |
+| TECHNICAL RECRUITER                                        |   1364 |      94.2815 |
+| RESEARCHER                                                 |   1031 |      94.2774 |
+| TEST ANALYST - US                                          |   4958 |      99.8185 |
+| CONSULTANT - US                                            |   7426 |      99.8115 |
+| TECHNOLOGY LEAD - US                                       |  28350 |      99.8025 |
+| TECHNICAL TEST LEAD - US                                   |   5374 |      99.7953 |
+| TECHNOLOGY ARCHITECT - US                                  |   4707 |      99.7663 |
+| TECHNOLOGY ANALYST - US                                    |  26055 |       99.762 |
+| SENIOR PROJECT MANAGER - US                                |   2774 |      99.7477 |
+| DEVELOPER USER INTERFACE                                   |   5247 |      99.7141 |
+| COMPUTER SYSTEMS ANALYST 2                                 |   4031 |      99.7023 |
+| SYSTEMS ANALYST - II                                       |   1339 |      99.7013 |
+| PROJECT MANAGER - III                                      |   1651 |      99.6972 |
+| PROJECT MANAGER - US                                       |   7046 |      99.6878 |
+| PROGRAMMER ANALYST - II                                    |   3588 |      99.6656 |
+| COMPUTER SYSTEMS ANALYST 3                                 |   2170 |      99.5853 |
+| COMPUTER PROGRAMMER/CONFIGURER 2                           |   6729 |       99.569 |
+| PROGRAMMER ANALYST - I                                     |   1432 |      99.5112 |
+| SYSTEMS ANALYST - III                                      |   1006 |       99.503 |
+| COMPUTER SPECIALIST/TESTING AND QUALITY ANALYST 2          |   3998 |      99.4247 |
+| COMPUTER PROGRAMMER/CONFIGURER 3                           |   1145 |      99.3886 |
+| APPLICATIONS DEVELOPER                                     |   3366 |      96.3458 |
+| SENIOR SOFTWARE DEVELOPER                                  |  10208 |      96.3166 |
+| PROGRAMMER ANALYST                                         | 249038 |      96.1279 |
+| SENIOR PROGRAMMER ANALYST                                  |   5810 |      96.1274 |
+| ASSISTANT RESEARCH SCIENTIST                               |   1103 |      96.1015 |
+| SENIOR ASSOCIATE                                           |   3540 |       96.017 |
+| SOFTWARE QUALITY ASSURANCE ENGINEER                        |   4920 |      95.9756 |
+| SENIOR MANAGER                                             |   1439 |      95.9694 |
+| PHYSICIAN IN A POST GRADUATE TRAINING PROGRAM              |   2421 |      95.9521 |
+| SYSTEMS ANALYST                                            |  61965 |      95.9477 |
+| QUALITY ASSURANCE ANALYST                                  |   7326 |      95.9459 |
+| TECHNICAL ARCHITECT                                        |   2908 |      95.9422 |
+| PROJECT LEAD                                               |   2363 |      95.9374 |
+| SOFTWARE ENGINEER III                                      |   1328 |      95.9337 |
+| SOFTWARE ANALYST                                           |   1072 |      95.8955 |
+| SR. SYSTEMS ANALYST                                        |   1151 |      95.8297 |
+| SOFTWARE ENGINEER 3                                        |   1891 |      95.8223 |
+| LEAD DEVELOPER                                             |   1049 |      95.8055 |
+| QUALITY ANALYST                                            |   2616 |      95.7951 |
+| SENIOR SOFTWARE DEVELOPMENT ENGINEER                       |   1399 |      95.7827 |
+| SOFTWARE QA ANALYST                                        |   1112 |      95.7734 |
+| TEST ANALYST                                               |   1419 |      95.7717 |
+| SENIOR CONSULTANT                                          |  24904 |      95.7557 |
+| TECHNICAL SPECIALIST                                       |   1295 |      95.7529 |
+| SENIOR TECHNICAL CONSULTANT                                |   1882 |      95.7492 |
+| SR. PROGRAMMER ANALYST                                     |   3716 |      95.7481 |
+| COMPUTER SPECIALIST/SYSTEM SUPPORT AND DEVELOPMENT         |   1339 |      99.3279 |
+| COMPUTER SPECIALIST/SYSTEM SUPPORT AND DEVELOPMENT ADMIN 2 |   1085 |      99.2627 |
+| DATA WAREHOUSE SPECIALIST                                  |   1631 |      99.2029 |
+| ASSURANCE STAFF                                            |   2334 |      99.0574 |
+| COMPUTER SYSTEMS ENGINEER/ARCHITECT                        |   2067 |      98.7905 |
+| SOFTWARE QUALITY ASSURANCE ENGINEER AND TESTER             |   1568 |      98.6607 |
+| AUDIT SENIOR                                               |   1070 |      98.5981 |
+| TEST CONSULTANT                                            |   1454 |      98.5557 |
+| SOFTWARE ENGINEER AND TESTER                               |   1216 |      98.5197 |
+| ARCHITECT LEVEL 2                                          |   2892 |      98.5131 |
+| PROGRAMMER/DEVELOPER                                       |   1560 |      98.4615 |
+| TEST ENGINEER LEVEL 2                                      |   2372 |      98.4401 |
+| MODULE LEAD                                                |   2226 |      98.3378 |
+| ADVISORY MANAGER                                           |   3255 |      98.3103 |
+| AUDIT ASSISTANT                                            |   1205 |      98.2573 |
+| LEAD ENGINEER                                              |  11157 |      98.2343 |
+| COMPUTER SPECIALIST                                        |   2175 |      98.2069 |
+| CONSULTANT LEVEL 3                                         |   1171 |      98.1213 |
+| DEVELOPER                                                  |  12909 |      98.0091 |
+| ERS SENIOR CONSULTANT                                      |   2249 |      97.9546 |
+| TAX SENIOR                                                 |   1838 |      97.9325 |
+| TEST ENGINEER LEVEL 1                                      |   1036 |      97.8764 |
+| PROGRAMMER ANALYST LEVEL 1                                 |   2395 |      97.8706 |
+| TECHNICAL ANALYST                                          |   2932 |      97.7831 |
+| SOFTWARE DEVELOPMENT ENGINEER IN TEST                      |   4258 |      97.6515 |
+| ADVISORY SENIOR ASSOCIATE                                  |   1332 |      97.5225 |
+| SOFTWARE ENGINEER 2                                        |   4166 |      97.1675 |
+| ERS CONSULTANT                                             |   2170 |      97.1429 |
+| FUNCTIONAL CONSULTANT                                      |   1115 |      97.0404 |
+| QA TESTER                                                  |   1170 |      96.9231 |
+| SOFTWARE DEVELOPMENT ENGINEER                              |   7284 |      96.8561 |
+| PROGRAMMER ANALYSTS                                        |   1133 |      96.8226 |
+| COMPUTER SYSTEMS ENGINEER                                  |  11090 |      96.6997 |
+| BUSINESS SYSTEM ANALYST                                    |   4435 |      96.6855 |
+| LEAD CONSULTANT                                            |   2169 |      96.6344 |
+| ELEMENTARY BILINGUAL TEACHER                               |   2088 |      96.5996 |
+| ASSISTANT VICE PRESIDENT                                   |   2132 |       96.576 |
+| CONSULTANT                                                 |  23081 |      96.5729 |
+| PRINCIPAL CONSULTANT                                       |   1836 |      96.5686 |
+| SYSTEMS ANALYSTS                                           |   1252 |      96.5655 |
+| SYSTEM ADMINISTRATOR                                       |   5048 |      96.5531 |
+| SOLUTIONS ARCHITECT                                        |   1915 |      96.5013 |
+| APPLICATIONS CONSULTANT                                    |   1180 |      96.4407 |
+| ORACLE DATABASE ADMINISTRATOR                              |   1527 |      96.3982 |
+| SOFTWARE DESIGN ENGINEER                                   |   1080 |      96.3889 |
+| PROGRAMMER/ANALYST                                         |   9375 |      96.3733 |
+| ASSOCIATE RESEARCH SCIENTIST                               |   1400 |      96.3571 |
+| DATA SCIENTIST                                             |   1932 |      95.7039 |
+| SAP CONSULTANT                                             |   3023 |      95.6996 |
+| COMPUTER PROGRAMMER                                        |  70570 |      95.6285 |
+| PROGRAM MANAGER                                            |   3920 |      95.5867 |
+| BUSINESS SYSTEMS ANALYST                                   |  10110 |      95.5687 |
+| PROGRAMMER / ANALYST                                       |   1173 |      95.5669 |
+| MEMBER OF TECHNICAL STAFF                                  |   1774 |      95.5468 |
+| ETL DEVELOPER                                              |   1841 |      95.5459 |
+| SOFTWARE PROGRAMMER                                        |   3577 |       95.527 |
+| PRINCIPAL SOFTWARE ENGINEER                                |   2257 |       95.525 |
+| POSTDOCTORAL SCHOLAR                                       |   3186 |      95.4802 |
+| SOFTWARE ENGINEER & TESTER                                 |   1538 |      95.4486 |
+| MANAGER                                                    |   8561 |      95.4211 |
+| JAVA DEVELOPER                                             |   7596 |      95.3923 |
+| SOFTWARE DEVELOPMENT ENGINEER II                           |   3274 |      95.3574 |
+| POSTDOCTORAL RESEARCH ASSOCIATE                            |   6041 |      95.3153 |
+| SCIENCE TEACHER                                            |   1127 |      95.2972 |
+| POSTDOCTORAL ASSOCIATE                                     |   5145 |      95.2964 |
+| SENIOR DATABASE ADMINISTRATOR                              |   1229 |      95.2807 |
+| SYSTEMS ANALYST II                                         |   1036 |      95.2703 |
+| BUSINESS ANALYST                                           |  39681 |      95.1967 |
+| ANALYST                                                    |  11751 |      95.1919 |
+| QA ANALYST                                                 |   6871 |      95.1827 |
+| DATABASE ADMINISTRATOR                                     |  16665 |      95.1815 |
+| ASSOCIATE                                                  |  12502 |      95.1768 |
+| SENIOR BUSINESS ANALYST                                    |   3402 |      95.1499 |
+| ASSOCIATE SOFTWARE ENGINEER                                |   1215 |       95.144 |
+| SENIOR SYSTEMS ANALYST                                     |   5353 |      95.1429 |
+| SOFTWARE ENGINEER                                          | 121307 |      95.1157 |
+| SOFTWARE APPLICATION ENGINEER                              |   1126 |      95.1155 |
+| COMPUTER PROGRAMMER/ANALYST                                |   1122 |       95.098 |
+| SYSTEMS ENGINEER                                           |   8078 |      95.0978 |
+| COMPUTER PROGRAMMER ANALYST                                |  13634 |      95.0711 |
+| DATABASE ANALYST                                           |   1050 |      95.0476 |
+| SOFTWARE QA ENGINEER                                       |   1169 |      95.0385 |
+| .NET DEVELOPER                                             |   2921 |      95.0359 |
+| COMPUTER SYSTEMS ANALYSTS                                  |   4728 |      95.0296 |
+| WEB DEVELOPER                                              |   8024 |       95.015 |
+| ARCHITECT                                                  |   4982 |       95.002 |
+| HARDWARE ENGINEER                                          |   2556 |      94.9922 |
+| RESEARCH ASSISTANT PROFESSOR                               |   1973 |      94.9823 |
+| QUALITY ASSURANCE ENGINEER                                 |   3647 |      94.9822 |
+| POSTDOCTORAL FELLOW                                        |   7857 |      94.8581 |
+| SENIOR HARDWARE ENGINEER                                   |   1653 |      94.8578 |
+| QA ENGINEER                                                |   2224 |      94.8291 |
+| ENGINEER II                                                |   1249 |      94.7158 |
+| SR. SOFTWARE ENGINEER                                      |   4863 |      94.7152 |
+| STAFF SCIENTIST                                            |   1242 |       94.686 |
+| BUSINESS INTELLIGENCE ANALYST                              |   1972 |      94.6755 |
+| PRINCIPAL ENGINEER                                         |   1066 |      94.6529 |
+| RF ENGINEER                                                |   2794 |      94.6314 |
+| SYSTEMS ADMINISTRATOR                                      |   6659 |      94.5938 |
+| SENIOR SOFTWARE ENGINEER                                   |  27133 |      94.5638 |
+| SENIOR JAVA DEVELOPER                                      |   1395 |       94.552 |
+| SOFTWARE TEST ENGINEER                                     |   3591 |      94.5419 |
+| VISITING ASSISTANT PROFESSOR                               |   1311 |       94.508 |
+| TECHNICAL CONSULTANT                                       |   3420 |      94.5029 |
+| SOFTWARE DEVELOPER                                         |  42907 |      94.4997 |
+| STAFF ENGINEER                                             |   1869 |       94.489 |
+| NETWORK ENGINEER                                           |   5422 |       94.467 |
+| PROJECT MANAGER                                            |  20172 |      94.4378 |
+| IT PROJECT MANAGER                                         |   2473 |      94.4197 |
+| APPLICATION ENGINEER                                       |   1458 |      94.3759 |
+| SOFTWARE ARCHITECT                                         |   1878 |      94.3557 |
+| PROGRAMMER                                                 |   6011 |      94.3271 |
+| VICE PRESIDENT                                             |   3159 |       94.302 |
+| CLINICAL ASSISTANT PROFESSOR                               |   1281 |      94.3013 |
+| ASSISTANT PROFESSOR                                        |  25265 |      94.3004 |
+| ASSOCIATE CONSULTANT                                       |   1350 |      94.2963 |
+| SENIOR SYSTEMS ENGINEER                                    |   2030 |      94.2857 |
+| TECHNICAL RECRUITER                                        |   1364 |      94.2815 |
+| RESEARCHER                                                 |   1031 |      94.2774 |
+| RESEARCH FELLOW                                            |   5981 |      96.3551 |
+| APPLICATIONS DEVELOPER                                     |   3366 |      96.3458 |
+| SENIOR SOFTWARE DEVELOPER                                  |  10208 |      96.3166 |
+| PROGRAMMER ANALYST                                         | 249038 |      96.1279 |
+| SENIOR PROGRAMMER ANALYST                                  |   5810 |      96.1274 |
+| ASSISTANT RESEARCH SCIENTIST                               |   1103 |      96.1015 |
+| SENIOR ASSOCIATE                                           |   3540 |       96.017 |
+| SOFTWARE QUALITY ASSURANCE ENGINEER                        |   4920 |      95.9756 |
+| SENIOR MANAGER                                             |   1439 |      95.9694 |
+| PHYSICIAN IN A POST GRADUATE TRAINING PROGRAM              |   2421 |      95.9521 |
+| SYSTEMS ANALYST                                            |  61965 |      95.9477 |
+| QUALITY ASSURANCE ANALYST                                  |   7326 |      95.9459 |
+| TECHNICAL ARCHITECT                                        |   2908 |      95.9422 |
+| PROJECT LEAD                                               |   2363 |      95.9374 |
+| SOFTWARE ENGINEER III                                      |   1328 |      95.9337 |
+| SOFTWARE ANALYST                                           |   1072 |      95.8955 |
+| SR. SYSTEMS ANALYST                                        |   1151 |      95.8297 |
+| SOFTWARE ENGINEER 3                                        |   1891 |      95.8223 |
+| LEAD DEVELOPER                                             |   1049 |      95.8055 |
+| QUALITY ANALYST                                            |   2616 |      95.7951 |
+| SENIOR SOFTWARE DEVELOPMENT ENGINEER                       |   1399 |      95.7827 |
+| SOFTWARE QA ANALYST                                        |   1112 |      95.7734 |
+| TEST ANALYST                                               |   1419 |      95.7717 |
+| SENIOR CONSULTANT                                          |  24904 |      95.7557 |
+| TECHNICAL SPECIALIST                                       |   1295 |      95.7529 |
+| SENIOR TECHNICAL CONSULTANT                                |   1882 |      95.7492 |
+| SR. PROGRAMMER ANALYST                                     |   3716 |      95.7481 |
+| DATA SCIENTIST                                             |   1932 |      95.7039 |
+| SAP CONSULTANT                                             |   3023 |      95.6996 |
+| COMPUTER PROGRAMMER                                        |  70570 |      95.6285 |
+| PROGRAM MANAGER                                            |   3920 |      95.5867 |
+| BUSINESS SYSTEMS ANALYST                                   |  10110 |      95.5687 |
+| PROGRAMMER / ANALYST                                       |   1173 |      95.5669 |
+| MEMBER OF TECHNICAL STAFF                                  |   1774 |      95.5468 |
+| ETL DEVELOPER                                              |   1841 |      95.5459 |
+| SOFTWARE PROGRAMMER                                        |   3577 |       95.527 |
+| PRINCIPAL SOFTWARE ENGINEER                                |   2257 |       95.525 |
+| POSTDOCTORAL SCHOLAR                                       |   3186 |      95.4802 |
+| SOFTWARE ENGINEER & TESTER                                 |   1538 |      95.4486 |
+| MANAGER                                                    |   8561 |      95.4211 |
+| JAVA DEVELOPER                                             |   7596 |      95.3923 |
+| SOFTWARE DEVELOPMENT ENGINEER II                           |   3274 |      95.3574 |
+| POSTDOCTORAL RESEARCH ASSOCIATE                            |   6041 |      95.3153 |
+| SCIENCE TEACHER                                            |   1127 |      95.2972 |
+| POSTDOCTORAL ASSOCIATE                                     |   5145 |      95.2964 |
+| SENIOR DATABASE ADMINISTRATOR                              |   1229 |      95.2807 |
+| SYSTEMS ANALYST II                                         |   1036 |      95.2703 |
+| BUSINESS ANALYST                                           |  39681 |      95.1967 |
+| ANALYST                                                    |  11751 |      95.1919 |
+| QA ANALYST                                                 |   6871 |      95.1827 |
+| DATABASE ADMINISTRATOR                                     |  16665 |      95.1815 |
+| ASSOCIATE                                                  |  12502 |      95.1768 |
+| SENIOR BUSINESS ANALYST                                    |   3402 |      95.1499 |
+| ASSOCIATE SOFTWARE ENGINEER                                |   1215 |       95.144 |
+| SENIOR SYSTEMS ANALYST                                     |   5353 |      95.1429 |
+| SOFTWARE ENGINEER                                          | 121307 |      95.1157 |
+| SOFTWARE APPLICATION ENGINEER                              |   1126 |      95.1155 |
+| COMPUTER PROGRAMMER/ANALYST                                |   1122 |       95.098 |
+| SYSTEMS ENGINEER                                           |   8078 |      95.0978 |
+| COMPUTER PROGRAMMER ANALYST                                |  13634 |      95.0711 |
+| DATABASE ANALYST                                           |   1050 |      95.0476 |
+| SOFTWARE QA ENGINEER                                       |   1169 |      95.0385 |
+| .NET DEVELOPER                                             |   2921 |      95.0359 |
+| COMPUTER SYSTEMS ANALYSTS                                  |   4728 |      95.0296 |
+| WEB DEVELOPER                                              |   8024 |       95.015 |
+| ARCHITECT                                                  |   4982 |       95.002 |
+| HARDWARE ENGINEER                                          |   2556 |      94.9922 |
+| RESEARCH ASSISTANT PROFESSOR                               |   1973 |      94.9823 |
+| QUALITY ASSURANCE ENGINEER                                 |   3647 |      94.9822 |
+| RESEARCH FELLOW                                            |   5981 |      96.3551 |
+| APPLICATIONS DEVELOPER                                     |   3366 |      96.3458 |
+| SENIOR SOFTWARE DEVELOPER                                  |  10208 |      96.3166 |
+| PROGRAMMER ANALYST                                         | 249038 |      96.1279 |
+| SENIOR PROGRAMMER ANALYST                                  |   5810 |      96.1274 |
+| ASSISTANT RESEARCH SCIENTIST                               |   1103 |      96.1015 |
+| SENIOR ASSOCIATE                                           |   3540 |       96.017 |
+| SOFTWARE QUALITY ASSURANCE ENGINEER                        |   4920 |      95.9756 |
+| SENIOR MANAGER                                             |   1439 |      95.9694 |
+| PHYSICIAN IN A POST GRADUATE TRAINING PROGRAM              |   2421 |      95.9521 |
+| SYSTEMS ANALYST                                            |  61965 |      95.9477 |
+| QUALITY ASSURANCE ANALYST                                  |   7326 |      95.9459 |
+| TECHNICAL ARCHITECT                                        |   2908 |      95.9422 |
+| PROJECT LEAD                                               |   2363 |      95.9374 |
+| SOFTWARE ENGINEER III                                      |   1328 |      95.9337 |
+| SOFTWARE ANALYST                                           |   1072 |      95.8955 |
+| SR. SYSTEMS ANALYST                                        |   1151 |      95.8297 |
+| SOFTWARE ENGINEER 3                                        |   1891 |      95.8223 |
+| LEAD DEVELOPER                                             |   1049 |      95.8055 |
+| QUALITY ANALYST                                            |   2616 |      95.7951 |
+| SENIOR SOFTWARE DEVELOPMENT ENGINEER                       |   1399 |      95.7827 |
+| SOFTWARE QA ANALYST                                        |   1112 |      95.7734 |
+| TEST ANALYST                                               |   1419 |      95.7717 |
+| SENIOR CONSULTANT                                          |  24904 |      95.7557 |
+| TECHNICAL SPECIALIST                                       |   1295 |      95.7529 |
+| SENIOR TECHNICAL CONSULTANT                                |   1882 |      95.7492 |
+| SR. PROGRAMMER ANALYST                                     |   3716 |      95.7481 |
+| DATA SCIENTIST                                             |   1932 |      95.7039 |
+| SAP CONSULTANT                                             |   3023 |      95.6996 |
+| COMPUTER PROGRAMMER                                        |  70570 |      95.6285 |
+| PROGRAM MANAGER                                            |   3920 |      95.5867 |
+| BUSINESS SYSTEMS ANALYST                                   |  10110 |      95.5687 |
+| PROGRAMMER / ANALYST                                       |   1173 |      95.5669 |
+| MEMBER OF TECHNICAL STAFF                                  |   1774 |      95.5468 |
+| ETL DEVELOPER                                              |   1841 |      95.5459 |
+| SOFTWARE PROGRAMMER                                        |   3577 |       95.527 |
+| PRINCIPAL SOFTWARE ENGINEER                                |   2257 |       95.525 |
+| POSTDOCTORAL SCHOLAR                                       |   3186 |      95.4802 |
+| SOFTWARE ENGINEER & TESTER                                 |   1538 |      95.4486 |
+| MANAGER                                                    |   8561 |      95.4211 |
+| JAVA DEVELOPER                                             |   7596 |      95.3923 |
+| SOFTWARE DEVELOPMENT ENGINEER II                           |   3274 |      95.3574 |
+| POSTDOCTORAL RESEARCH ASSOCIATE                            |   6041 |      95.3153 |
+| SCIENCE TEACHER                                            |   1127 |      95.2972 |
+| POSTDOCTORAL ASSOCIATE                                     |   5145 |      95.2964 |
+| SENIOR DATABASE ADMINISTRATOR                              |   1229 |      95.2807 |
+| SYSTEMS ANALYST II                                         |   1036 |      95.2703 |
+| BUSINESS ANALYST                                           |  39681 |      95.1967 |
+| ANALYST                                                    |  11751 |      95.1919 |
+| QA ANALYST                                                 |   6871 |      95.1827 |
+| DATABASE ADMINISTRATOR                                     |  16665 |      95.1815 |
+| ASSOCIATE                                                  |  12502 |      95.1768 |
+| SENIOR BUSINESS ANALYST                                    |   3402 |      95.1499 |
+| ASSOCIATE SOFTWARE ENGINEER                                |   1215 |       95.144 |
+| SENIOR SYSTEMS ANALYST                                     |   5353 |      95.1429 |
+| SOFTWARE ENGINEER                                          | 121307 |      95.1157 |
+| SOFTWARE APPLICATION ENGINEER                              |   1126 |      95.1155 |
+| COMPUTER PROGRAMMER/ANALYST                                |   1122 |       95.098 |
+| SYSTEMS ENGINEER                                           |   8078 |      95.0978 |
+| COMPUTER PROGRAMMER ANALYST                                |  13634 |      95.0711 |
+| DATABASE ANALYST                                           |   1050 |      95.0476 |
+| SOFTWARE QA ENGINEER                                       |   1169 |      95.0385 |
+| .NET DEVELOPER                                             |   2921 |      95.0359 |
+| COMPUTER SYSTEMS ANALYSTS                                  |   4728 |      95.0296 |
+| WEB DEVELOPER                                              |   8024 |       95.015 |
+| ARCHITECT                                                  |   4982 |       95.002 |
+| HARDWARE ENGINEER                                          |   2556 |      94.9922 |
+| RESEARCH ASSISTANT PROFESSOR                               |   1973 |      94.9823 |
+| QUALITY ASSURANCE ENGINEER                                 |   3647 |      94.9822 |
+| POSTDOCTORAL FELLOW                                        |   7857 |      94.8581 |
+| SENIOR HARDWARE ENGINEER                                   |   1653 |      94.8578 |
+| QA ENGINEER                                                |   2224 |      94.8291 |
+| ENGINEER II                                                |   1249 |      94.7158 |
+| SR. SOFTWARE ENGINEER                                      |   4863 |      94.7152 |
+| STAFF SCIENTIST                                            |   1242 |       94.686 |
+| BUSINESS INTELLIGENCE ANALYST                              |   1972 |      94.6755 |
+| PRINCIPAL ENGINEER                                         |   1066 |      94.6529 |
+| RF ENGINEER                                                |   2794 |      94.6314 |
+| SYSTEMS ADMINISTRATOR                                      |   6659 |      94.5938 |
+| SENIOR SOFTWARE ENGINEER                                   |  27133 |      94.5638 |
+| SENIOR JAVA DEVELOPER                                      |   1395 |       94.552 |
+| SOFTWARE TEST ENGINEER                                     |   3591 |      94.5419 |
+| VISITING ASSISTANT PROFESSOR                               |   1311 |       94.508 |
+| TECHNICAL CONSULTANT                                       |   3420 |      94.5029 |
+| SOFTWARE DEVELOPER                                         |  42907 |      94.4997 |
+| STAFF ENGINEER                                             |   1869 |       94.489 |
+| NETWORK ENGINEER                                           |   5422 |       94.467 |
+| PROJECT MANAGER                                            |  20172 |      94.4378 |
+| IT PROJECT MANAGER                                         |   2473 |      94.4197 |
+| APPLICATION ENGINEER                                       |   1458 |      94.3759 |
+| SOFTWARE ARCHITECT                                         |   1878 |      94.3557 |
+| PROGRAMMER                                                 |   6011 |      94.3271 |
+| VICE PRESIDENT                                             |   3159 |       94.302 |
+| CLINICAL ASSISTANT PROFESSOR                               |   1281 |      94.3013 |
+| ASSISTANT PROFESSOR                                        |  25265 |      94.3004 |
+| ASSOCIATE CONSULTANT                                       |   1350 |      94.2963 |
+| SENIOR SYSTEMS ENGINEER                                    |   2030 |      94.2857 |
+| TECHNICAL RECRUITER                                        |   1364 |      94.2815 |
+| RESEARCHER                                                 |   1031 |      94.2774 |
++------------------------------------------------------------+--------+--------------+
+366 rows in set (0.10 sec)
+
+mysql> 
+

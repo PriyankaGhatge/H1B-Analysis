@@ -1,0 +1,20 @@
+Sqoop:
+
+>>hadoop fs -put /home/sherlock/Q10_Answer /niit/q10
+
+>>create database H1B;
+
+>>create table Question10(Job_Title varchar(200) not null,Count int, Success_rate float);
+
+>>desc Question10;
++--------------+--------------+------+-----+---------+-------+
+| Field        | Type         | Null | Key | Default | Extra |
++--------------+--------------+------+-----+---------+-------+
+| Job_Title    | varchar(200) | NO   |     | NULL    |       |
+| Count        | int(11)      | YES  |     | NULL    |       |
+| Success_rate | float        | YES  |     | NULL    |       |
++--------------+--------------+------+-----+---------+-------+
+
+>>sqoop export --connect jdbc:mysql://localhost/H1B --username root --password 'hansolo' --table Question10 --update-mode allowinsert --export-dir /niit/q10 --input-fields-terminated-by ',' ;
+
+
